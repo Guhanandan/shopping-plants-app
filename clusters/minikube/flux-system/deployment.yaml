@@ -4,7 +4,7 @@ metadata:
   name: shopping-plants-app
   namespace: shopping-plants-app
 spec:
-  replicas: 1
+  replicas: 6
   selector:
     matchLabels:
       app: shopping-plants-app
