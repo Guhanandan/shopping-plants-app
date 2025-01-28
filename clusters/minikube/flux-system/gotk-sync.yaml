@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/Guhanandan/shopping-plants-app.git
+  url: ssh://git@github.com/Guhanandan/shopping-plants-app
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
